@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="425dp"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="800dp"
+        android:background="@color/deep_gold"
+        app:logo="@drawable/hooliganlogo1" />
+    <Spinner
+        android:id="@+id/league_spinner"
+        style="@style/MySpinnerStyle"
+        android:layout_width="425dp"
+        android:layout_height="60dp"
+        android:minHeight="32dp" />
+
+    <Spinner
+        android:id="@+id/team_spinner"
+        style="@style/MySpinnerStyle"
+        android:layout_width="425dp"
+        android:layout_height="60dp"
+        android:minHeight="48dp" />
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="450dp"
+        android:layout_height="550dp" />
+
+    <ListView
+        android:id="@+id/bar_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/bar_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Hooligan"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

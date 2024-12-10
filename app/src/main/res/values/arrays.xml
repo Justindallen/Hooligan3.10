@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="leagues">
+        <item>MLB</item>
+        <item>NBA</item>
+        <item>NFL</item>
+        <item>NHL</item>
+        <item>EPL</item>
+        <!-- Add more leagues as needed -->
+    </string-array>
+</resources>
